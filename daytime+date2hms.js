@@ -8,3 +8,6 @@
 Today=Time();
 console.log(Today+'');
 console.dir(Today);
+
+
+date2hms=function(t){var o=t,f=function(x){var n=x;return n<10?'0'+n:n;};return [f(o.getHours()),f(o.getMinutes()),f(o.getSeconds())].join(':');},
